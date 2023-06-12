@@ -3,7 +3,6 @@ import 'package:http/http.dart';
 import 'package:timeapp/services/world_time.dart';
 
 class chooseLocation extends StatefulWidget {
-
   @override
   State<chooseLocation> createState() => _chooseLocationState();
 }
@@ -36,6 +35,7 @@ class _chooseLocationState extends State<chooseLocation> {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 181, 74, 177),
         appBar: AppBar(
+          
           title: Text('Choose a Location'),
           centerTitle: true,
           backgroundColor: Colors.purple,
