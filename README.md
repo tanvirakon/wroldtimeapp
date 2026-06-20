@@ -1,16 +1,22 @@
-# timeapp
+# World Time App
 
-A new Flutter project.
+A simple Flutter app that shows the current time in cities around the world. Choose a location to see its local time with a day or night theme.
 
-## Getting Started
+<p align="center">
+  <img src="ss%20for%20readme/Screenshot%202026-06-20%20172434.png" width="31%" alt="London daytime screen" />
+  <img src="ss%20for%20readme/Screenshot%202026-06-20%20172441.png" width="31%" alt="Location selection screen" />
+  <img src="ss%20for%20readme/Screenshot%202026-06-20%20172457.png" width="31%" alt="Seoul nighttime screen" />
+</p>
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Live local time from TimeAPI
+- Eight selectable cities with country flags
+- Automatic day and night backgrounds
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Run locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
